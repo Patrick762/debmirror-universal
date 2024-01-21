@@ -9,4 +9,5 @@ debmirror   -a $ARCH \
             --progress \
             --method=$PROTO \
             --ignore-release-gpg \
+            --i18n \
             $DEBMIRROR_DATA >> /var/log/cron.log
